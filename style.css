@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  src: url();
+}
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.flex-direct-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.flex-direct-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.navbar{
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 40px;
+  background-color: #D9D9D9;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav-link{
+  margin: 10px 10px 0px 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.judul{
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.tentara{
+  background-color: #D5FFDD;
+  border-radius: 20px;
+}
+.petani{
+  background-color: #FFF4DC;
+  border-radius: 20px;
+}
+.pramugari{
+  background-color: #FFCED7;
+  border-radius: 20px;
+}
+.fotografer{
+  background-color: #E2F2FF;
+  border-radius: 20px;
+}
+.profesikanan{
+  width: 100%;
+  height: auto;
+}
+.dokter{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.pilot{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.ilmuan{
+  background-color: #E9E8E2;
+  border-radius: 20px;
+}
+.pembalap{
+  background-color: #FFDBC5;
+  border-radius: 20px;
+}
+.astronout{
+  background-color: #8FC5ED;
+  border-radius: 20px;
+}
+@media(min-width: 425px) {
+  .tentara{
+    width: 289px;
+    height: 299px;
+  }
+  .tentara img{
+    width: 230px;
+    height: 230px;
+    top: -40px;
+    left: 30px;
+    position: relative;
+  }
+  .buttontentara{
+    width: 212px;
+    height: 45px;
+    top: -90px;
+    left: 37px;
+    background-color: #399349;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .tentara h2{
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 48px;
+    top: -77px;
+    left: 80px;
+    position: relative;
+  }
+  .tentara p{
+    font-size: 14px;
+    font-weight: 500;
+    top: -75px;
+    left: 75px;
+    position: relative;
+  }
+  .petani{
+    width: 288.53px;
+    height: 221px;
+  }
+  .petani img{
+    width: 213px;
+    height: 209px;
+    top: 12px;
+    left: 40px;
+    position: relative;
+  }
+  .buttonpetani{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #E29A00;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .pramugari{
+    width: 288.53px;
+    height: 221px;
+  }
+  .pramugari img{
+    width: 209px;
+    height: 206px;
+    top: 12px;
+    left: 40px;
+    position: relative;
+  }
+  .buttonpramugari{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #FF5573;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .fotografer{
+    width: 289px;
+    height: 341px;
+  }
+  .fotografer img{
+    width: 230px;
+    height: 230px;
+    top: -20px;
+    left: 35px;
+    position: relative;
+  }
+  .fotografer h2{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: -35px;
+    position: relative;
+  }
+  .fotografer p{
+    width: 70%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    top: -20px;
+    left: 50px;
+    position: relative;
+  }
+  .buttonfotografer{
+    width: 212px;
+    height: 45px;
+    top: -60px;
+    left: 40px;
+    background-color: #3279AF;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .dokter{
+    width: 288.53px;
+    height: 221px;
+  }
+  .dokter img{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+    left: 43px;
+    position: relative;
+  }
+  .buttondokter{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .pilot{
+    width: 288.53px;
+    height: 221px;
+  }
+  .pilot img{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+    left: 43px;
+    position: relative;
+  }
+  .buttonpilot{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .ilmuan{
+    width: 288.53px;
+    height: 221px;
+  }
+  .ilmuan img{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+    left: 43px;
+    position: relative;
+  }
+  .buttonilmuan{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .pembalap{
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+  }
+  .pembalap img{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+    left: 43px;
+    position: relative;
+  }
+  .buttonpembalap{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #E36415;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .astronout{
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+  }
+  .astronout img{
+    width: 213px;
+    height: 213px;
+    top: 10px;
+    left: 43px;
+    position: relative;
+  }
+  .buttonastronout{
+    width: 212px;
+    height: 45px;
+    top: -50px;
+    left: 40px;
+    background-color: #275E87;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+}
+@media(min-width: 1280px) {
+  .flex-direct-column {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .flex-direct-row{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+  }
+  .judul{
+    margin-top: 83px;
+  }
+  .navbar{
+    position: fixed;
+    top: 0px;
+  }
+  .tentara{
+    width: 490px;
+    height: 180px;
+    background-color: #D5FFDD;
+    border-radius: 20px;
+  }
+  .tentara img{
+    width: 230px;
+    height: 230px;
+    top: -50px;
+    left: 10px;
+    position: relative;
+  }
+  .buttontentara{
+    width: 240px;
+    height: 37px;
+    top: -90px;
+    left: -20px;
+    background-color: #399349;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .tentara h2{
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 48px;
+    top: -220px;
+    left: 215px;
+    position: relative;
+  }
+  .tentara p{
+    font-size: 14px;
+    font-weight: 500;
+    top: -220px;
+    left: 218px;
+    position: relative;
+  }
+  .petani{
+    width: 235px;
+    height: 180px;
+    background-color: #FFF4DC;
+    border-radius: 20px;
+  }
+  .petani img{
+    width: 173px;
+    height: 170px;
+    top: 5px;
+    left: 30px;
+    position: relative;
+  }
+  .buttonpetani{
+    width: 173px;
+    height: 37px;
+    top: -45px;
+    left: 30px;
+    background-color: #E29A00;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .pramugari{
+    width: 235px;
+    height: 181px;
+    background-color: #FFCED7;
+    border-radius: 20px;
+  }
+  .pramugari img{
+    width: 170px;
+    height: 170px;
+    top: 5px;
+    left: 30px;
+    position: relative;
+  }
+  .buttonpramugari{
+    width: 173px;
+    height: 37px;
+    top: -45px;
+    left: 30px;
+    background-color: #FF5573;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .fotografer{
+    width: 230px;
+    height: 392px;
+    background-color: #E2F2FF;
+    border-radius: 20px;
+  }
+  .fotografer img{
+    width: 160px;
+    height: 160px;
+    top: 35px;
+    left: 30px;
+    position: relative;
+  }
+  .fotografer h2{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: 10px;
+    position: relative;
+  }
+  .fotografer p{
+    width: 60%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    top: 30px;
+    left: 45px;
+    position: relative;
+  }
+  .buttonfotografer{
+    width: 173px;
+    height: 37px;
+    top: 175px;
+    left: 30px;
+    background-color: #3279AF;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .profesikanan{
+    width: 500px;
+    height: 392px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .dokter{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  .dokter img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+  }
+  .dokter p{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: -55px;
+    left: 100px;
+    position: relative;
+  }
+  .buttondokter{
+    width: 149px;
+    height: 22px;
+    top: 5px;
+    left: 25px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .pilot{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  .pilot img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+  }
+  .pilot p{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: -55px;
+    left: 100px;
+    position: relative;
+  }
+  .buttonpilot{
+    width: 149px;
+    height: 22px;
+    top: 5px;
+    left: 25px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .ilmuan{
+    width: 423px;
+    height: 96px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  .ilmuan img{
+    width: 70px;
+    height: 70px;
+    top: 13px;
+    left: 20px;
+    position: relative;
+  }
+  .ilmuan p{
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    top: -55px;
+    left: 100px;
+    position: relative;
+  }
+  .buttonilmuan{
+    width: 149px;
+    height: 22px;
+    top: 5px;
+    left: 25px;
+    background-color: #D8D6C1;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .profesikananbawah{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+  .pembalap{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+  .pembalap img{
+    width: 120px;
+    height: 120px;
+    top: 30px;
+    left: 14px;
+    position: relative;
+  }
+  .pembalap p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    top: -80px;
+    left: 140px;
+    position: relative;
+  }
+  .buttonpembalap{
+    width: 100px;
+    height: 55px;
+    top: 5px;
+    left: 15px;
+    background-color: #CAC8B3;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+  .astronout{
+    width: 500px;
+    height: 181px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+  }
+  .astronout img{
+    width: 120px;
+    height: 120px;
+    top: 30px;
+    left: -20px;
+    position: relative;
+  }
+  .astronout p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    top: -80px;
+    left: 105px;
+    position: relative;
+  }
+  .buttonastronout{
+    width: 100px;
+    height: 55px;
+    top: 5px;
+    left: -20px;
+    background-color: #CAC8B3;
+    color: white;
+    border: none;
+    border-radius: 20px;  
+    position: relative;
+  }
+}
